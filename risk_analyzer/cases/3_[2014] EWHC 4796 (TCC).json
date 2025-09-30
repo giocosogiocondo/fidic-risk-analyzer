@@ -1,0 +1,47 @@
+{
+  "case_id": "[2014] EWHC 4796 (TCC)",
+  "seat": "England (Technology & Construction Court, High Court of Justice)",
+  "institution": "Court litigation under Arbitration Act 1996 (challenge to arbitral jurisdiction)",
+  "law_governing_contract": "Libyan law not expressly stated; contract drafted under FIDIC 4th Edition (1987, reprinted 1992) standard form",
+  "lex_arbitri": "English Arbitration Act 1996 (s.67 jurisdictional challenge)",
+  "fidic_edition": "FIDIC 4th Edition (1987, reprinted 1992)",
+  "works": "Construction and refurbishment of Al-Waddan Hotel, Tripoli (civil works, finishing, MEP, hotel infrastructure)",
+  "core_issues": [
+    {"tag":"ConditionPrecedent","clause":"FIDIC 67.1","desc":"Whether Engineer’s decision is a binding condition precedent to arbitration"},
+    {"tag":"EngineerRefusal","clause":"FIDIC 2.1, 2.6, 67.1","desc":"Effect of Engineer (DAR) refusing to act after his appointment expired"},
+    {"tag":"PreventionPrinciple","clause":"Implied term / Common law","desc":"Whether Employer (Al-Waddan) could rely on absence of Engineer’s decision when it failed to reappoint or ensure Engineer performed"},
+    {"tag":"NoticeOfDecision","clause":"FIDIC 67.1","desc":"Whether DAR’s 19 June 2012 letter constituted a valid ‘decision’"},
+    {"tag":"JurisdictionChallenge","clause":"Arbitration Act 1996 s.67","desc":"Employer’s attempt to set aside arbitrator’s jurisdiction for failure to wait 84 days after referral to Engineer"}
+  ],
+  "factual_triggers": [
+    "Contract dated 1 April 2007, standard FIDIC 4th Edition with Particular Conditions drafted by DAR",
+    "Engineer (DAR Al Handasah) contract with Employer expired on 31 Dec 2010",
+    "10 June 2012: MAN referred dispute to Engineer under FIDIC 67.1 (IPC 18 non-payment, retention, additional labour, interest)",
+    "19 June 2012: DAR replied it was no longer Engineer and would not act further",
+    "1 August 2012: MAN wrote to Employer citing DAR’s refusal, requested payment or reappointment of Engineer, alternatively notice of intention to arbitrate",
+    "13 Aug 2012: Employer responded but did not reappoint Engineer",
+    "16 Nov 2012: MAN served notice of arbitration via CMS Cameron McKenna",
+    "2013: LCIA appointed arbitrator (Roger Stewart QC) after High Court order",
+    "2014: Arbitrator issued Corrected Partial Award affirming jurisdiction, Employer challenged under Arbitration Act 1996 s.67"
+  ],
+  "errors_identified": [
+    "Employer argued that no valid Engineer’s decision existed and arbitration premature",
+    "Court held DAR’s 19 June 2012 letter was not a decision but a clear refusal to act",
+    "Employer prevented performance by not reappointing Engineer, could not rely on absence of decision",
+    "Condition precedent (Engineer’s decision) displaced by refusal + prevention principles"
+  ],
+  "outcome": "High Court (Raeside QC J) dismissed jurisdiction challenge. Held arbitrator had jurisdiction: Engineer’s decision normally a condition precedent, but DAR’s refusal and Employer’s failure to reappoint engaged prevention principle. Arbitration validly commenced.",
+  "risk_lessons": [
+    "Engineer’s decision under FIDIC 67.1 is generally a strict condition precedent to arbitration",
+    "If Engineer refuses to act or appointment lapses, Employer must reappoint promptly; otherwise Employer cannot rely on absence of decision",
+    "Prevention principle bars a party from benefiting from its own failure to maintain contract machinery",
+    "Parties should ensure dispute resolution mechanisms (Engineer, DAB, etc.) remain in force throughout contract performance and DLP",
+    "Employer’s non-cooperation can lead to loss of procedural defences in arbitration"
+  ],
+  "snippets": [
+    {"clause":"FIDIC 67.1","text":"No later than the 84th day after receipt, the Engineer shall give notice of his decision … If dissatisfied, either party may within 70 days give notice of intention to arbitrate."},
+    {"clause":"DAR Letter 19 June 2012","text":"Our services contract has expired on 31/12/2010 … we no more have capacity to assume any duties … we will not act on your letter and do not address us on this issue anymore."},
+    {"clause":"Court Conclusion","text":"A clearer example of an engineer washing their hands of their contractual obligation is hard to find … this was a clear and absolute refusal … Employer cannot insist on the 84-day wait when it failed to reappoint."},
+    {"clause":"Prevention Principle","text":"No person can take advantage of the non-fulfilment of a condition the performance of which has been hindered by himself (Roberts v Bury; Panamena v Leyland)."}
+  ]
+}

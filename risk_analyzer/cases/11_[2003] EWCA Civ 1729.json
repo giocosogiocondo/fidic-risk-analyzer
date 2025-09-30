@@ -1,0 +1,50 @@
+{
+  "case_id": "[2003] EWCA Civ 1729",
+  "seat": "England (Court of Appeal, Civil Division; appeal from TCC)",
+  "institution": "UK Courts (TCC at first instance, appeal to Court of Appeal)",
+  "law_governing_contract": "English law",
+  "lex_arbitri": "UNCITRAL Arbitration Rules referenced, but arbitration not reached",
+  "fidic_edition": "FIDIC Client/Consultant Model Services Agreement (1991)",
+  "works": "Sual Power Station, Philippines (Boiler foundations, design & ground investigation services)",
+  "core_issues": [
+    {"tag":"DesignAgreementTerms","clause":"Letter of Intent (29 May 1995) vs FIDIC 1991","desc":"Whether design contract terms incorporated FIDIC 1991 (liability 5 years, £4m cap) or remained on Letter of Intent terms"},
+    {"tag":"GroundInvestigation","clause":"Ground Investigation Proposal (March 1996) incorporating FIDIC","desc":"Whether ground investigation agreement was subject to FIDIC Revision B terms via Clause 1 incorporation"},
+    {"tag":"FormalClaim","clause":"FIDIC Clause 17","desc":"Whether 2 May 2001 letter was a 'formal claim' within 5-year liability period"},
+    {"tag":"PaymentMechanism","clause":"Appendix C (Remuneration/Payment)","desc":"Payment schedule never finalized; effect on validity of FIDIC incorporation"},
+    {"tag":"SymmetryArgument","clause":"FIDIC Revision B vs Letter of Intent","desc":"Whether design and ground investigation contracts must be on same terms (symmetry)"},
+    {"tag":"LimitationOfLiability","clause":"FIDIC 17, 18","desc":"Whether £4m liability cap and 5-year limitation applied"}
+  ],
+  "factual_triggers": [
+    "1995-05-29 Letter of Intent signed (design fee £3.75m, scope defined, payment mechanism left open)",
+    "1995-08-11 Arup presented Revision A draft FIDIC Model Agreement ('FIDIC 91 agreed as basis' noted)",
+    "1995-12-06 Revision B draft issued (includes £4m cap, 5-year liability, UNCITRAL arbitration)",
+    "1995-12 Jakarta meeting – no agreement on payment schedule; no binding Revision B contract concluded",
+    "1996-03 Ground Investigation Proposal signed 'OK' by CEPAS with Clause 1 referencing FIDIC Agreement",
+    "1996-08 Parties agreed breakdown of fees/progress assessment separate from FIDIC payment schedule",
+    "1997-04 Foundation failures at Boiler House No.1 (G2, G5)",
+    "1998-01 New management (Reynolds) resisted FIDIC incorporation, preferred non-FIDIC forms",
+    "2001-05-02 CEPAS letter of claim sent to Arup"
+  ],
+  "errors_identified": [
+    "Trial judge concluded design agreement only based on Letter of Intent, rejecting Revision B incorporation",
+    "On appeal, Court found judge erred by dismissing FIDIC incorporation into Ground Investigation Agreement (clause 1 should be effective)",
+    "No evidence parties assented to Revision B FIDIC terms for design services; payment schedule unresolved",
+    "Oral and documentary evidence inconsistent; contemporaneous invoices referred to LOI, not Revision B",
+    "Symmetry argument (both contracts must be on FIDIC or both on LOI) rejected; contracts can differ"
+  ],
+  "outcome": "Appeal allowed in part. Court of Appeal held Ground Investigation Agreement was on FIDIC Revision B terms (including £4m cap, 5-year limit), but design agreement remained on Letter of Intent terms (no FIDIC incorporation). Letter of 2 May 2001 was a valid 'formal claim' under Clause 17.",
+  "risk_lessons": [
+    "If FIDIC Model Agreement is intended, parties must expressly conclude and sign or clearly incorporate terms",
+    "Payment schedules are essential; failure to agree leaves risk of contract reverting to LOI terms",
+    "Ground investigation or ancillary agreements may incorporate FIDIC even if main design agreement does not",
+    "Reliance on 'symmetry' is risky; related contracts can validly operate on different terms",
+    "Formal claim letters can suffice under FIDIC Clause 17; arbitration/court proceedings are not the only route"
+  ],
+  "snippets": [
+    {"clause":"Letter of Intent (1995-05-29)","text":"Defined Arup’s work scope and fee (£3.75m), stated payment mechanism to be defined later."},
+    {"clause":"FIDIC Clause 17","text":"Neither party liable unless a claim is formally made before expiry of period in Part II."},
+    {"clause":"FIDIC Clause 18","text":"Maximum compensation payable limited to £4m."},
+    {"clause":"Ground Investigation Proposal (1996-03)","text":"Work 'shall be governed by the Client/Consultant Model Services Agreement … entered into by CEPAS and Arup'."},
+    {"clause":"Court finding","text":"Ground Investigation Proposal evidenced objective intention to adopt FIDIC terms, but did not convert design agreement into FIDIC."}
+  ]
+}

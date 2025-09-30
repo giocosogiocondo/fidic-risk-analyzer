@@ -1,0 +1,43 @@
+{
+  "case_id": "[2014] EWHC 3193 (TCC)",
+  "seat": "England (Technology & Construction Court, High Court of Justice)",
+  "institution": "Court litigation under FIDIC EPC/Turnkey contract (stay application)",
+  "law_governing_contract": "English law",
+  "lex_arbitri": "N/A (litigation, not arbitration)",
+  "fidic_edition": "FIDIC 1999 Silver Book (EPC/Turnkey Projects)",
+  "works": "Design, supply, installation, testing and commissioning of 1.5 MW solar energy plant on Council-owned building",
+  "core_issues": [
+    {"tag":"DABMandatory","clause":"FIDIC 20.2–20.4","desc":"Whether referral to a DAB was mandatory before litigation"},
+    {"tag":"NoDABInPlace","clause":"FIDIC 20.8","desc":"Meaning of 'no DAB in place' and whether this allowed direct litigation"},
+    {"tag":"Certainty","clause":"FIDIC 20.4–20.7","desc":"Whether DAB/adjudication process unenforceable for uncertainty (the 'gap' issue)"},
+    {"tag":"StayOfProceedings","clause":"Court discretion","desc":"Whether court should stay proceedings and compel use of DAB procedure"}
+  ],
+  "factual_triggers": [
+    "7 Jul 2011: Contract signed, EMS to deliver solar energy plant",
+    "31 Jul 2011: Deadline for 55kW output to secure higher feed-in tariff; alleged failure triggered £1.3m 'Price Reduction'",
+    "2013–2014: Council refused EMS payment application; pre-action protocol letters exchanged",
+    "May 2014: Mediation attempted, failed",
+    "21 Jul 2014: EMS issued notice of intention to refer dispute to DAB",
+    "11 Aug 2014: Council issued court claim; 26 Aug 2014 EMS applied to RICS for adjudicator",
+    "27 Aug 2014: EMS applied for stay of proceedings"
+  ],
+  "errors_identified": [
+    "Council argued sub-clause 20.8 allowed opt-out of DAB; court rejected this",
+    "Council argued adjudication unenforceable for lack of certainty; court found courts can enforce compliance",
+    "Council argued DAB not 'in place' until Dispute Adjudication Agreement signed; court held appointment alone sufficed"
+  ],
+  "outcome": "Court granted stay of proceedings. Held DAB referral under FIDIC 20.4 mandatory; clause 20.8 did not allow unilateral opt-out. Dispute must first go through adjudication machinery before litigation.",
+  "risk_lessons": [
+    "FIDIC DAB procedure is a binding precondition to court litigation unless clearly excluded",
+    "Clause 20.8 applies narrowly (mainly to standing DAB expiry), not a general opt-out",
+    "Courts can enforce DAB/adjudication provisions even if gaps exist (e.g. non-final but binding decisions)",
+    "Employers and contractors should ensure DAB appointment processes are completed to avoid jurisdictional disputes",
+    "Contract drafters should clarify interaction between DAB expiry, arbitration/litigation, and enforcement"
+  ],
+  "snippets": [
+    {"clause":"FIDIC 20.2.1","text":"Disputes shall be adjudicated by a DAB in accordance with Sub-Clause 20.4…"},
+    {"clause":"FIDIC 20.8","text":"If a dispute arises… and there is no DAB in place… Sub-Clause 20.4 and 20.5 shall not apply…"},
+    {"clause":"Court conclusion","text":"Council’s submissions that sub-clause 20.8 gave it a unilateral right to opt out rejected; adjudication provisions enforceable."},
+    {"clause":"Stay order","text":"Action must be stayed; parties left to resolve dispute in accordance with contractual machinery."}
+  ]
+}

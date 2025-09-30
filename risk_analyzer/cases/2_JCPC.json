@@ -1,0 +1,62 @@
+{
+  "case_id": "JCPC/2023/0031",
+  "seat": "N/A (Court litigation; appeal from Trinidad & Tobago, JCPC decision)",
+  "institution": "Courts (High Court & Court of Appeal of Trinidad & Tobago) / Judicial Committee of the Privy Council (UK)",
+  "law_governing_contract": "Law of Trinidad & Tobago (decision based on SCJA s.23(7), CPR; governing law of contract not expressly stated in judgment)",
+  "lex_arbitri": "N/A",
+  "fidic_edition": "1999 Red Book (1st Ed.)",
+  "works": "Caroni Savannah Residential Development Phase B infrastructure (earthworks, roads, drainage, water, sewerage, etc.)",
+  "core_issues": [
+    {"tag":"AssignmentStanding","clause":"Supreme Court of Judicature Act s.23(7) (T&T)","desc":"Whether factoring/assignment was an 'absolute assignment' or merely a 'charge by way of security' — affecting contractor’s standing to sue"},
+    {"tag":"RightToSueReserved","clause":"Factoring Agreement cl.4.1.5","desc":"Whether right to litigate/settle was reserved to the contractor despite assignment, indicating non-absolute assignment"},
+    {"tag":"PartialAssignment","clause":"Factoring Agreement cl.1(Facility Amount), cl.2.1","desc":"Facility limited to TT$40m only — partial assignment suggesting security character"},
+    {"tag":"RiskAllocationDisputedReceivables","clause":"Factoring Agreement cl.7.1","desc":"Clause requiring contractor to repay bank in case of dispute — more consistent with security than sale"},
+    {"tag":"DisclosureFishing","clause":"CPR 28.5, 28.6","desc":"Disclosure requires direct relevance and necessity — fishing expeditions prohibited"},
+    {"tag":"AbatementPleading","clause":"Common law (Mondel v Steel; Gilbert-Ash)","desc":"Abatement defence requires specific breach and diminished value — mere speculation insufficient"},
+    {"tag":"FraudPleading","clause":"Derry v Peek","desc":"Fraud must be clearly and specifically pleaded with factual basis — 'reason to believe' is inadequate"},
+    {"tag":"IPCEntitlement","clause":"FIDIC 14.3/14.6/14.7(b)","desc":"Claim for unpaid IPCs based on engineer’s fair determination and 77-day payment obligation"},
+    {"tag":"RetentionRelease","clause":"FIDIC 10.1","desc":"Retention must be released once Taking-Over Certificate issued and minor defects rectified"}
+  ],
+  "factual_triggers": [
+    "2015-03 to 10: 13 IPCs issued (Engineer: Vikab); IPC 1-6 fully paid, IPC 7 partially unpaid, IPC 8-13 unpaid",
+    "Outstanding certified sums TT$77,658,948.91 + retention TT$5,145,270.28 not released",
+    "2015-08-17 Taking-Over Certificate issued, 2016-08-19 defects rectification confirmed",
+    "2015-10-09 Employer’s CEO sent bank letter confirming outstanding certified balance TT$77,658,948.91",
+    "2016-02-16 Factoring agreement & assignment notice: Facility capped at TT$40m, litigation rights reserved to contractor (cl.4.1.5), repayment obligation on dispute (cl.7.1)",
+    "2016-11-10 & 2017-05-09 Employer invoked 'line ministry directive' for independent audit to justify non-payment (no audit results disclosed)",
+    "2018-12-20 Contractor filed claim & applied for summary judgment / 2019-03-26 Employer applied for specific disclosure & indicated possible abatement/fraud defences",
+    "2020-03-11 High Court: disclosure denied, summary judgment granted (principal TT$82,804,219.19 + interest TT$41,903,377.58 + 5% statutory interest)",
+    "2022-07-20 Appeal dismissed / 2024-04-30 hearing, 2024-10-29 JCPC judgment",
+    "Employer’s four suspicion grounds (embankments, earthworks, off-site disposal, identical BOQ quantities) rejected for lack of expert support/evidence"
+  ],
+  "errors_identified": [
+    "Misinterpretation of assignment documents: focusing only on 'absolute' wording, ignoring facility cap, partial assignment, reserved right to sue, repayment obligations indicating security",
+    "Abatement/fraud defences not properly pleaded: no specific breaches, diminished value, or fraudulent intent alleged — only 'reason to believe'",
+    "Evidentiary gap: disclosure application supported only by lawyer’s affidavit, no audit report, site personnel, or expert testimony",
+    "Attempt to undermine engineer’s certification: despite engineer and employer’s staff being on site, no evidence of over-certification or fraud",
+    "Logical flaw in 'identical BOQ quantities' suspicion: many BOQ items (fixed counts, lengths, material specs) expected to match drawings",
+    "Prolonged non-payment under audit pretext: ministry directive and 'preliminary results' cited, but no substantive material disclosed ('fishing expedition')"
+  ],
+  "outcome": "Appeal dismissed. Assignment held to be by way of security (equitable), so contractor had standing to sue. Disclosure application denied (defences speculative). Summary judgment of lower courts affirmed — Employer must pay TT$82,804,219.19 (unpaid IPCs + retention), interest and costs.",
+  "risk_lessons": [
+    "Factoring/assignment drafting: if absolute transfer intended, must include litigation rights, entire debt, and no repayment obligation; if security, clarify enforcement/reassignment terms",
+    "FIDIC 14.3 documentation access: Employer should have contractual right to obtain copies of Statements & Supporting Documents submitted to engineer",
+    "Payment withholding: 'audit pending' is not valid ground to suspend IPC payment; abatement/fraud must be pleaded with evidence",
+    "Site record governance: ensure employer, engineer, and contractor maintain inspection logs, photos, surveys, meeting minutes to avoid later disputes",
+    "Bank confirmation letter risk: confirmation to lenders may be treated as admission of debt — wording must be carefully managed",
+    "Disclosure strategy: under CPR 28, must show direct relevance and genuine defence, otherwise risk dismissal and adverse costs",
+    "Retention practice: once FIDIC 10.1 criteria met, promptly release retention to avoid interest and litigation risk",
+    "Engineer independence: improper curtailment of engineer’s certification authority undermines contract administration and can fuel disputes"
+  ],
+  "snippets": [
+    {"clause":"SCJA s.23(7)","text":"Any absolute assignment ... (not purporting to be by way of charge only) ... shall ... transfer the legal right to the debt ..."},
+    {"clause":"Factoring cl.4.1.5","text":"Contractor to handle disputes 'by litigation or otherwise', settlements subject to bank’s prior approval — strong indicator right to sue was reserved"},
+    {"clause":"Factoring cl.1, cl.2.1","text":"EMBD Receivables 'sold and assigned' only up to Facility Amount TT$40,000,000 — partial assignment structure"},
+    {"clause":"Factoring cl.7.1","text":"In case of dispute, contractor must repay full receivable to bank — indicates security not sale"},
+    {"clause":"FIDIC 14.3","text":"Contractor to submit detailed Statement and supporting documents to engineer"},
+    {"clause":"FIDIC 14.6","text":"Engineer to issue IPC within 28 days of receiving Statement and supporting documents"},
+    {"clause":"FIDIC 14.7(b) (CPA)","text":"Employer to pay within 77 days of engineer receiving Statement"},
+    {"clause":"FIDIC 10.1","text":"Engineer to issue Taking-Over Certificate once works completed save for minor defects"},
+    {"clause":"CPR 28.5/28.6","text":"Specific disclosure only for documents directly relevant and necessary for fair disposal or cost saving"}
+  ]
+}

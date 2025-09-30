@@ -1,0 +1,43 @@
+{
+  "case_id": "[2020] EWHC 223 (TCC)",
+  "seat": "England (Technology & Construction Court, High Court of Justice)",
+  "institution": "Court litigation (Insolvency & Construction Act adjudication enforcement)",
+  "law_governing_contract": "English law",
+  "lex_arbitri": "N/A (litigation, not arbitration)",
+  "fidic_edition": "FIDIC 1999 Yellow Book (amended EPC subcontract)",
+  "works": "Subcontract for design, procurement, installation, testing and commissioning of biomass-fired energy plant (Wrexham, UK)",
+  "core_issues": [
+    {"tag":"AdjudicatorJurisdiction","clause":"Housing Grants, Construction and Regeneration Act 1996","desc":"Whether adjudicator had jurisdiction over disputes under subcontract incorporating FIDIC terms"},
+    {"tag":"PayLessNotice","clause":"HGCRA 1996 ss.111, 115","desc":"Whether Employer validly served Pay Less notice against PBS interim application"},
+    {"tag":"InsolvencyStay","clause":"Insolvency Rules / Companies Act","desc":"Effect of PBS insolvency on enforcement of adjudicator’s decision"},
+    {"tag":"FIDICIncorporation","clause":"Subcontract incorporating FIDIC Yellow Book","desc":"Extent to which FIDIC terms (as amended) governed interim payment and dispute resolution"},
+    {"tag":"NaturalJustice","clause":"Common law / adjudication principles","desc":"Whether adjudicator breached rules of natural justice"}
+  ],
+  "factual_triggers": [
+    "2016: Bester engaged as EPC contractor for Wrexham biomass plant; PBS appointed as subcontractor under amended FIDIC Yellow Book",
+    "PBS submitted interim application for £1.7m payment",
+    "Bester issued Pay Less notice disputing amount",
+    "PBS referred dispute to adjudication; adjudicator awarded PBS £1.7m",
+    "Bester resisted enforcement: challenged adjudicator jurisdiction, validity of Pay Less notice, insolvency stay",
+    "PBS entered insolvency during proceedings"
+  ],
+  "errors_identified": [
+    "Bester argued adjudicator exceeded jurisdiction; court found disputes were within contract scope",
+    "Pay Less notice served late and defective; adjudicator correct to reject",
+    "Insolvency did not automatically bar enforcement, but discretionary stay applied due to risk of unjust enrichment",
+    "Arguments of natural justice breach rejected; adjudicator acted fairly"
+  ],
+  "outcome": "Court enforced adjudicator’s decision in principle but granted stay of execution due to PBS insolvency. Confirmed adjudicator had jurisdiction and Pay Less notice was invalid.",
+  "risk_lessons": [
+    "Strict compliance with Pay Less notice deadlines is essential; late/defective notices are ineffective",
+    "Adjudication decisions generally enforced unless clear excess of jurisdiction or breach of natural justice",
+    "Insolvency may justify stay of enforcement even where adjudicator’s decision is valid",
+    "FIDIC terms in subcontracts must be read together with UK statutory payment regime",
+    "Employers should document and serve payment notices precisely to avoid liability"
+  ],
+  "snippets": [
+    {"clause":"HGCRA 1996 s.111","text":"A party to a construction contract may not withhold payment after the final date for payment unless it has given a Pay Less notice…"},
+    {"clause":"FIDIC Payment Clause (amended)","text":"Subcontract incorporated FIDIC Yellow Book terms on interim payments, subject to UK Act requirements."},
+    {"clause":"Court finding","text":"Adjudicator had jurisdiction… Pay Less notice invalid… Insolvency justified stay of execution."}
+  ]
+}

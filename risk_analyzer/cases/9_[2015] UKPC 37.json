@@ -1,0 +1,42 @@
+{
+  "case_id": "[2015] UKPC 37",
+  "seat": "Trinidad & Tobago (arbitration under FIDIC 1999 Red Book; appeal to UK Privy Council)",
+  "institution": "Arbitration (Dr Robert Gaitskell QC) → Court of Appeal of Trinidad & Tobago → Judicial Committee of the Privy Council",
+  "law_governing_contract": "Law of Trinidad & Tobago",
+  "lex_arbitri": "Arbitration Act (T&T); appeal reviewed under English common law arbitration principles",
+  "fidic_edition": "FIDIC 1999 Red Book (1st Ed.)",
+  "works": "Construction of Scarborough Hospital, Tobago",
+  "core_issues": [
+    {"tag":"TerminationForNonPayment","clause":"FIDIC 2.4, 16.1, 16.2","desc":"Whether Contractor (NHIC) validly terminated due to Employer’s failure to provide ‘reasonable evidence’ of financial arrangements"},
+    {"tag":"Suspension","clause":"FIDIC 16.1","desc":"Entitlement to suspend works pending financial evidence"},
+    {"tag":"EmployerClaims","clause":"FIDIC 2.5","desc":"Scope of Employer’s ability to raise set-offs and cross-claims without prior notice"},
+    {"tag":"ArbitralReview","clause":"Common law","desc":"Limits of court review of arbitrator’s findings of fact"}
+  ],
+  "factual_triggers": [
+    "2003: Agreement signed incorporating FIDIC 1999 Red Book",
+    "2004–2006: Contractor requested evidence of financial arrangements under cl.2.4; responses from Permanent Secretaries lacked Cabinet approval",
+    "23 Sep 2005: Contractor suspended works under cl.16.1",
+    "3 Nov 2006: Contractor terminated contract under cl.16.2",
+    "Arbitrator held termination valid; Court of Appeal reversed; Privy Council restored Arbitrator’s decision",
+    "Arbitrator’s third award allowed NIPDEC set-offs; Court of Appeal upheld; Privy Council reversed based on cl.2.5"
+  ],
+  "errors_identified": [
+    "Court of Appeal improperly substituted its judgment for Arbitrator’s factual findings on what constitutes ‘reasonable evidence’ under cl.2.4",
+    "Arbitrator erred in part (insufficient sum reasoning), but primary reasoning valid",
+    "Court of Appeal misapplied cl.2.5 by allowing Employer’s cross-claims without timely notice"
+  ],
+  "outcome": "Privy Council allowed NHIC’s appeals. Held termination on 3 Nov 2006 valid under cl.16.2; remitted financial award to Arbitrator to reconsider Employer’s set-offs in light of cl.2.5. Employer barred from raising late claims except abatement.",
+  "risk_lessons": [
+    "Employers must strictly comply with cl.2.4 by providing Cabinet-level or binding financial evidence, not just assurances",
+    "Contractors may suspend/terminate if financial arrangements evidence not provided",
+    "Cl.2.5 requires timely and particularised Employer notice for any claims/set-offs",
+    "Courts will not reweigh arbitrator’s factual findings absent irrationality",
+    "Arbitration awards given deference; court review limited to errors of law"
+  ],
+  "snippets": [
+    {"clause":"FIDIC 2.4","text":"Employer shall submit within 28 days… reasonable evidence that financial arrangements have been made and are being maintained…"},
+    {"clause":"FIDIC 16.2","text":"Contractor may terminate if, within 42 days after giving notice under 16.1, it does not receive evidence required under 2.4…"},
+    {"clause":"FIDIC 2.5","text":"Employer shall give notice and particulars… as soon as practicable… only entitled to set-off or deduction in accordance with this Sub-Clause."},
+    {"clause":"Privy Council","text":"Court of Appeal impermissibly substituted its own judgment for that of the Arbitrator… Arbitrator’s decision stood."}
+  ]
+}

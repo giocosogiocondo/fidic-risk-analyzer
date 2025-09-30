@@ -1,0 +1,47 @@
+{
+  "case_id": "[2016] EWHC 607 (TCC)",
+  "seat": "London (Technology & Construction Court, High Court of Justice)",
+  "institution": "Court litigation under Arbitration Act 1996 context (Part 8 CPR claim)",
+  "law_governing_contract": "English law (contract based on FIDIC 1999 Yellow Book with amendments)",
+  "lex_arbitri": "N/A (litigation, not arbitration)",
+  "fidic_edition": "FIDIC 1999 Yellow Book (heavily amended)",
+  "works": "Design, procurement, construction, start-up, testing and commissioning of a Combined Heat and Intelligent Power Plant, Beckton (East London)",
+  "core_issues": [
+    {"tag":"LDsDetermination","clause":"FIDIC 2.5, 3.5, 8.7","desc":"Whether Engineer’s agreement/determination under 2.5 & 3.5 is a precondition to Employer’s entitlement to delay liquidated damages under 8.7"},
+    {"tag":"OnDemandBond","clause":"FIDIC 4.2.5, 4.2.6 (amended)","desc":"Whether Employer could call on on-demand bond for unpaid delay damages without Engineer’s determination"},
+    {"tag":"FraudException","clause":"Common law + Bond law","desc":"If Engineer’s determination required, would Employer’s call on bond be fraudulent absent such determination?"},
+    {"tag":"ContractualAmendments","clause":"FIDIC 2.5 vs bespoke 8.7, 14.6","desc":"Effect of deleting ‘subject to 2.5’ language in LD clause compared to standard FIDIC form"},
+    {"tag":"CommercialContext","clause":"Bond terms + lender requirement","desc":"Impact of lender’s insistence on unrestricted on-demand bond on interpretation"}
+  ],
+  "factual_triggers": [
+    "14 Mar 2013: Contract signed (FIDIC Yellow Book base, amended)",
+    "Performance bond issued with Zurich, capped at £7.56m (pre-TOC) / £2.52m (post-TOC)",
+    "Works delayed 409 days beyond completion date",
+    "23 Dec 2014 & 31 Mar 2015: Employer gave LD notices expressly citing clause 2.5",
+    "25 Jan 2016: Employer demanded £8.27m LDs within 30 days",
+    "25 Feb 2016: Employer gave 23-day notice under 4.2.5 of intention to call bond",
+    "9 Mar 2016: Contractor filed Part 8 claim for declaratory and injunctive relief",
+    "16 Mar 2016: Expedited hearing before Carr J"
+  ],
+  "errors_identified": [
+    "Contractor mischaracterised clause 2.5 as condition precedent to LDs; court found clause 8.7 provided independent regime",
+    "Reliance on Employer’s earlier letters citing 2.5 not determinative of contract construction",
+    "Confusion between liability to pay LDs (under 8.7) vs process of determination (2.5/3.5)",
+    "Contractor overstated fraud exception scope; belief in entitlement under bond sufficient absent dishonesty"
+  ],
+  "outcome": "Court dismissed claim. Held Employer entitled to claim liquidated damages under clause 8.7 without Engineer’s determination under 2.5/3.5. Employer entitled to call on on-demand bond; no fraud exception engaged. Declaratory and injunctive relief refused.",
+  "risk_lessons": [
+    "Amendments to FIDIC clauses (e.g. removing ‘subject to 2.5’) can drastically shift risk allocation",
+    "On-demand bonds give powerful security; contractors must negotiate restrictions explicitly",
+    "Engineer’s determination may not always be condition precedent — depends on contract wording",
+    "Employers should ensure LD clause and bond provisions are aligned with financing requirements",
+    "Contractors must act promptly if disputing LD entitlement, but bond calls will generally be upheld absent fraud"
+  ],
+  "snippets": [
+    {"clause":"FIDIC 2.5","text":"Employer considers himself entitled to any payment… shall give notice and particulars… Engineer shall then proceed in accordance with Sub-Clause 3.5."},
+    {"clause":"FIDIC 3.5","text":"Engineer shall consult with each Party… and make a fair determination."},
+    {"clause":"FIDIC 8.7","text":"If Contractor fails to achieve milestones… shall pay liquidated damages… payable within 30 days or deductible from next Notified Sum."},
+    {"clause":"Bond 4.2.5","text":"Employer shall give 23 days’ prior written notice of intention to demand under Bond, stating breach… Contractor may remedy within notice period."},
+    {"clause":"Court conclusion","text":"Beckton entitled to recover LDs under 8.7 without Engineer’s determination. Sub-Clause 8.7 sets out self-contained regime."}
+  ]
+}

@@ -1,0 +1,18 @@
+# === Core (필수에 가깝게 권장) ===
+numpy>=1.23
+
+# === File parsers (문서 입력 지원; 선택적이지만 보통 필요) ===
+pdfminer.six>=20221105      # PDF 텍스트 추출 (io.py에서 사용)
+python-docx>=0.8.11         # DOCX 텍스트 추출 (io.py에서 사용)
+
+# === Semantic Embeddings (정밀 유사도 분석; 없으면 TF-IDF로 폴백) ===
+sentence-transformers>=2.7.0
+torch>=2.2.0                # sentence-transformers 백엔드 (OS/환경에 맞춰 자동로컬 CUDA 설치 권장)
+
+# === ANN 가속 (선택) ===
+faiss-cpu>=1.7.4            # --use_faiss 옵션 사용 시 필요 (analyzer.py에서 조건부 import)
+
+# 참고:
+# - sentence-transformers가 미설치되면 embeddings.py가 자동으로 단순 TF-IDF 백엔드로 폴백합니다.
+# - PDF/DOCX 처리가 필요 없다면 해당 패키지들은 제거해도 됩니다.
+# - GPU 사용 예정이면 torch 버전을 CUDA에 맞춰 설치하세요(예: pip install torch --index-url https://download.pytorch.org/whl/cu121).

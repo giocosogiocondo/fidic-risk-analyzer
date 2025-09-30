@@ -1,0 +1,41 @@
+{
+  "case_id": "SGCA(I)-2025-2",
+  "seat": "Singapore",
+  "institution": "ICC",
+  "law_governing_contract": "Indian law",
+  "lex_arbitri": "Singapore IAA",
+  "fidic_edition": "1999 Red Book (1st Ed.)",
+  "works": "Dedicated Freight Corridor",
+  "core_issues": [
+    {"tag": "ChangeInLegislation", "clause": "13.7", "desc": "Whether the minimum wage increase notification constitutes a change in legislation"},
+    {"tag": "CostEscalation", "clause": "13.8", "desc": "Application of the price adjustment formula/coefficients"},
+    {"tag": "NoticeTimeBar", "clause": "20.1", "desc": "28‑day notice / 42‑day detailed claim and record‑keeping requirements"},
+    {"tag": "ArbSeatRulesMismatch", "clause": "20.6", "desc": "Different arbitral institution/seat depending on foreign vs domestic contractor"},
+    {"tag": "NaturalJustice", "clause": "-", "desc": "Copying from parallel awards; parties’ right to be heard; information asymmetry among arbitrators"}
+  ],
+  "factual_triggers": [
+    "First claim filed three years after the wage notification (2017-01-19)",
+    "Dozens of Interim Payment Certificates (IPCs) submitted without including a claim under 13.7 (waiver/estoppel issue)",
+    "Particular Conditions and 13.8 coefficients differ from CP-301/CP-302 contracts",
+    "Seat and rules differed from the parallel arbitrations (Indian Arbitration Act vs Singapore IAA)"
+  ],
+  "errors_identified": [
+    "Misapplication of the 13.8 formula/coefficients from a different contract",
+    "Applied the Indian Arbitration Act to interest/costs despite Singapore seat",
+    "Cited numerous authorities not presented by the parties",
+    "Inserted computation wording from the parallel arbitrations"
+  ],
+  "outcome": "Award set aside for breach of natural justice (apparent bias, fair hearing breach, arbitrator equality)",
+  "risk_lessons": [
+    "Inconsistency among seat/governing law/institution can escalate into disputes over interest, costs, and procedure",
+    "Clarify the boundary between 13.7 and 13.8 and specify coefficients/data sources in the Particular Conditions",
+    "Clarify 20.1 notice, detailed-claim, and record-keeping obligations and any exceptions",
+    "For multi-package/parallel proceedings with the same presiding arbitrator, include procedural safeguards (disclosure, opportunity to comment)"
+  ],
+  "snippets": [
+    {"clause": "13.7", "text": "...changes in legislation..."},
+    {"clause": "13.8", "text": "...price adjustment formula with coefficients A,B,C..."},
+    {"clause": "20.1", "text": "...28 days notice...42 days particulars..."},
+    {"clause": "20.6", "text": "...ICC Singapore for foreign contractor; ICADR Delhi for domestic..."}
+  ]
+}

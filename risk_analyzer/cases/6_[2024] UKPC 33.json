@@ -1,0 +1,59 @@
+{
+  "case_id": "[2024] UKPC 33",
+  "seat": "Trinidad & Tobago (Privy Council appeal from Court of Appeal)",
+  "institution": "High Court & Court of Appeal of Trinidad & Tobago → Judicial Committee of the Privy Council (UK)",
+  "law_governing_contract": "Law of Trinidad & Tobago (Supreme Court of Judicature Act s.23(7), CPR)",
+  "lex_arbitri": "N/A (litigation, not arbitration)",
+  "fidic_edition": "FIDIC 1999 Red Book (1st Ed., with Particular Conditions)",
+  "works": "Caroni Savannah Residential Development Phase B infrastructure (site grading, roads, drainage, water, sewerage, traffic management, etc.)",
+  "core_issues": [
+    {"tag":"AssignmentStanding","clause":"SCJA s.23(7); Factoring Agreement (2016)","desc":"Whether contractor’s assignment to Ansa Merchant Bank was absolute (removing standing) or equitable by way of security (allowing contractor to sue)"},
+    {"tag":"RightToSueReserved","clause":"Factoring Agreement cl.4.1.5","desc":"Contractor reserved right to litigate/settle disputes, indicating assignment was not absolute"},
+    {"tag":"PartialAssignment","clause":"Factoring Agreement cl.1, 2.1","desc":"Facility capped at TT$40m (less than TT$77m receivable) – partial assignment inconsistent with absolute transfer"},
+    {"tag":"RiskReallocation","clause":"Factoring Agreement cl.7.1","desc":"Clause required contractor to repay bank if receivables disputed – consistent with security, not sale"},
+    {"tag":"DisclosureFishing","clause":"CPR 28.5, 28.6","desc":"Employer sought disclosure of contractor’s IPC supporting documents, but application treated as speculative 'fishing expedition'"},
+    {"tag":"AbatementPleading","clause":"Common law (Mondel v Steel; Gilbert-Ash)","desc":"Abatement defence requires pleaded breach + diminished value; not established"},
+    {"tag":"FraudPleading","clause":"Derry v Peek","desc":"Fraud must be specifically pleaded with evidence; 'reason to believe' insufficient"},
+    {"tag":"IPCEntitlement","clause":"FIDIC 14.3–14.7","desc":"Engineer’s certified IPCs (TT$77m) payable within 77 days; employer withheld citing audit directive"},
+    {"tag":"RetentionRelease","clause":"FIDIC 10.1","desc":"Retention TT$5.1m due after Taking-Over Certificate and defect rectification; employer failed to release"}
+  ],
+  "factual_triggers": [
+    "2015-02: Contract signed (TT$231m, based on new BOQ)",
+    "2015-03~10: 13 IPCs issued; IPC 1–6 paid, IPC 7 partially unpaid, IPCs 8–13 wholly unpaid",
+    "Outstanding certified sums TT$77,658,948.91 + retention TT$5,145,270.28",
+    "2015-08-17: Taking-Over Certificate issued; 2016-08-19 defects rectification confirmed",
+    "2016-02-16: Factoring agreement with Ansa Merchant Bank; facility capped at TT$40m; right to sue reserved to contractor",
+    "2016-11–2017-05: Employer invoked ministry directive for independent audit; preliminary results never disclosed",
+    "2018-12-20: Contractor filed claim; applied for summary judgment",
+    "2019-03: Employer sought specific disclosure alleging over-certification/fraud",
+    "2020-03-11: High Court granted summary judgment (TT$82.8m + TT$41.9m interest + 5% statutory interest)",
+    "2022-07-20: Court of Appeal dismissed employer’s appeal",
+    "2024-10-29: JCPC dismissed final appeal; confirmed contractor’s standing and summary judgment"
+  ],
+  "errors_identified": [
+    "Employer mischaracterised assignment as absolute despite clauses showing charge/security",
+    "Defences of abatement/fraud inadequately pleaded (speculation, no particulars)",
+    "Disclosure application unsupported by evidence (no audit reports, no site personnel testimony, no expert affidavits)",
+    "Employer attempted to undermine engineer’s certification without substantive proof",
+    "Suspicion grounds (embankments, earthworks, disposal, identical BOQ quantities) rejected as baseless"
+  ],
+  "outcome": "Appeal dismissed. Assignment construed as equitable charge, so contractor had standing to sue. Disclosure application refused as speculative. Summary judgment (TT$82.8m + interest + retention) affirmed; employer must pay.",
+  "risk_lessons": [
+    "Factoring/assignment: if absolute transfer intended, must include full debt, litigation rights, and no repayment obligation",
+    "Employers must not withhold certified IPC payments pending 'audits' unless contractually justified",
+    "Defences of abatement/fraud must be specifically pleaded with factual/evidential support",
+    "Engineer’s certification under FIDIC carries strong evidential weight unless clearly disproved",
+    "Bank confirmation letters risk being treated as admissions of debt",
+    "Disclosure under CPR 28 cannot be used for speculative fishing expeditions",
+    "Retention must be released once Taking-Over Certificate conditions met"
+  ],
+  "snippets": [
+    {"clause":"SCJA s.23(7)","text":"Any absolute assignment ... not purporting to be by way of charge only ... shall transfer the legal right to the debt."},
+    {"clause":"Factoring cl.4.1.5","text":"Contractor to handle disputes 'by litigation or otherwise' subject to bank approval – indicates right to sue reserved."},
+    {"clause":"Factoring cl.2.1","text":"Assignment of receivables limited to Facility Amount TT$40,000,000."},
+    {"clause":"Factoring cl.7.1","text":"If receivables disputed, contractor must repay bank in full – security character."},
+    {"clause":"FIDIC 14.7(b)","text":"Employer shall pay within 77 days of engineer’s receipt of contractor’s statement."},
+    {"clause":"FIDIC 10.1","text":"Retention released once Taking-Over Certificate issued and minor defects remedied."},
+    {"clause":"CPR 28.5/28.6","text":"Disclosure only for documents directly relevant and necessary – speculative applications barred."}
+  ]
+}

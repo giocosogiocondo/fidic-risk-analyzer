@@ -1,0 +1,48 @@
+{
+  "case_id": "[2013] EWHC 3010 (TCC)",
+  "seat": "London (Technology & Construction Court, High Court of Justice)",
+  "institution": "ICC arbitration (seat London) – application before English Court under Arbitration Act 1996 s.44",
+  "law_governing_contract": "Governing law not expressly stated; contract based on FIDIC form with amendments",
+  "lex_arbitri": "English Arbitration Act 1996",
+  "fidic_edition": "FIDIC (form referenced, substantially amended)",
+  "works": "Supply and installation of two boilers (Units 1 & 2) for a power plant in Brazil",
+  "core_issues": [
+    {"tag":"OnDemandGuarantee","clause":"Amended FIDIC 4.2","desc":"Whether Employer could call on on-demand performance guarantees despite alleged breach of contract"},
+    {"tag":"TakingOverCertificates","clause":"FIDIC 10.2","desc":"Employer’s refusal to issue TOCs; whether units were taken into use as permanent works or merely temporary"},
+    {"tag":"UrgentInterimRelief","clause":"Arbitration Act 1996 s.44(3)","desc":"Court’s power to grant injunction to preserve contractual right as an ‘asset’"},
+    {"tag":"FraudOrImproperCall","clause":"Common law + bond principles","desc":"Whether demand on guarantee may be restrained absent fraud if underlying contract prohibits such call"},
+    {"tag":"ServiceOfProceedings","clause":"CPR 6.7, 6.15","desc":"Whether service on MABE’s solicitors (CMS) constituted valid service in arbitration claim"}
+  ],
+  "factual_triggers": [
+    "2007: Doosan contracted with MABE (Chile) to supply two boilers for Brazilian power plant",
+    "Performance guarantees issued; expiry upon TOC or 31 Dec 2013",
+    "Units taken into operation: Unit 1 on 30 Nov 2012, Unit 2 on 10 May 2013",
+    "July 2013: Doosan requested TOCs; MABE refused, alleging use only as temporary measure",
+    "Aug 2013: MABE solicitors claimed R$128m damages for delay/defects",
+    "Sep 2013: Doosan solicitors warned against wrongful call on guarantees",
+    "Oct 2013: Doosan applied for interim injunction under Arbitration Act s.44(3) to restrain demand on guarantees"
+  ],
+  "errors_identified": [
+    "Employer’s reliance on ‘temporary measure’ use unsupported; commercial operation confirmed by official press releases",
+    "Refusal to issue TOCs viewed as breach of contract aimed at prolonging guarantees",
+    "Employer’s solicitors refused undertaking not to call guarantees, raising inference of wrongful call risk",
+    "Argument against urgency rejected – delay of 10 days not fatal",
+    "Court found MABE’s stance contrary to prevention principle (cannot benefit from own breach)"
+  ],
+  "outcome": "Court granted interim injunction restraining MABE from calling on performance guarantees until return date (18 Oct 2013). Found Doosan had strong case that refusal to issue TOCs was breach of contract; call on guarantees could be restrained. Service on CMS Cameron McKenna deemed valid.",
+  "risk_lessons": [
+    "Even on-demand guarantees may be restrained where beneficiary’s right to call depends on its own contractual breach",
+    "TOC issuance is critical – wrongful withholding can affect expiry of performance security",
+    "Arbitration Act 1996 s.44(3) allows urgent asset-preservation orders, including contractual rights",
+    "Contractors should promptly seek injunction if risk of improper call arises",
+    "Employers acting as Engineer must act fairly; cannot manipulate TOCs to extend guarantees",
+    "Service of arbitration claims may be effected on solicitors within jurisdiction if they represent party in matter"
+  ],
+  "snippets": [
+    {"clause":"FIDIC 10.2","text":"If the Employer uses any part of the Works before the TOC is issued… (a) that part is deemed taken over; (c) Engineer shall issue TOC if requested."},
+    {"clause":"FIDIC 4.2 (amended)","text":"Original restrictions on calling performance security deleted; Employer has unfettered right to demand under guarantees."},
+    {"clause":"Guarantee wording","text":"… pay on first demand in writing stating Contractor has not performed in conformity with Contract."},
+    {"clause":"Court finding","text":"Use as ‘temporary measure’ argument was ‘little short of ludicrous’ given 7,500+ hours exported to grid and press releases of commercial operation."},
+    {"clause":"Arbitration Act 1996 s.44(3)","text":"Court may grant orders necessary to preserve evidence or assets in cases of urgency."}
+  ]
+}

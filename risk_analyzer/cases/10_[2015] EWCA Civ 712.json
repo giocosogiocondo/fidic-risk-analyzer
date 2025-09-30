@@ -1,0 +1,48 @@
+{
+  "case_id": "[2015] EWCA Civ 712",
+  "seat": "England (Court of Appeal, Civil Division)",
+  "institution": "UK Courts (Litigation, not Arbitration)",
+  "law_governing_contract": "English law",
+  "lex_arbitri": "N/A",
+  "fidic_edition": "FIDIC 1999 Red Book",
+  "works": "Gibraltar Airport runway and associated works",
+  "core_issues": [
+    {"tag":"UnforeseeableConditions","clause":"FIDIC 4.12","desc":"Meaning of unforeseeable physical conditions and burden of proof on Contractor"},
+    {"tag":"SitePossessionDelay","clause":"FIDIC 4.7","desc":"Employer’s responsibility for delay in giving site possession"},
+    {"tag":"ExtensionOfTime","clause":"FIDIC 8.4","desc":"Requirements and entitlement for EOT claims"},
+    {"tag":"LiquidatedDamages","clause":"FIDIC 8.6","desc":"Scope and application of LDs for Contractor delay"},
+    {"tag":"VariationOrders","clause":"FIDIC 13","desc":"Effect of variation instructions on contract price adjustments"},
+    {"tag":"TerminationEmployer","clause":"FIDIC 15.2","desc":"Employer’s right to terminate and compliance with termination procedures"}
+  ],
+  "factual_triggers": [
+    "Contract based on FIDIC 1999 Red Book for airport runway works in Gibraltar",
+    "Contractor claimed unforeseeable ground conditions and sought EOT",
+    "Employer delayed granting full possession of site",
+    "Disputes arose over Contractor entitlement to additional time and costs",
+    "Employer sought to terminate Contractor and impose LDs",
+    "Litigation ensued; case reached Court of Appeal"
+  ],
+  "errors_identified": [
+    "Contractor failed to establish unforeseeable ground conditions within FIDIC 4.12 definition",
+    "Insufficient contemporaneous evidence to support claims",
+    "Court held burden of proof firmly on Contractor",
+    "Employer’s delay in possession not sufficient to excuse Contractor’s wider failures",
+    "Contractor’s approach to EOT and variations found procedurally and substantively deficient"
+  ],
+  "outcome": "Court of Appeal upheld first-instance judgment largely in favour of Employer. Contractor’s claims for unforeseeable conditions and EOT rejected. Employer lawfully terminated under FIDIC 15.2 and entitled to liquidated damages.",
+  "risk_lessons": [
+    "Contractors must keep detailed contemporaneous records to prove unforeseeable conditions under FIDIC 4.12",
+    "Employer delays in site possession do not excuse unrelated Contractor failings",
+    "Strict compliance with FIDIC notice and procedure provisions is essential",
+    "Termination under FIDIC 15.2 requires careful procedural compliance but will be upheld if properly executed",
+    "Variation claims must be precisely documented and causally linked to cost/time impacts"
+  ],
+  "snippets": [
+    {"clause":"FIDIC 4.12","text":"Unforeseeable physical conditions are those which could not reasonably have been foreseen by an experienced contractor…"},
+    {"clause":"FIDIC 4.7","text":"The Employer shall give the Contractor right of access to and possession of the Site…"},
+    {"clause":"FIDIC 8.4","text":"The Contractor shall be entitled subject to compliance with Sub-Clause 20.1 to an extension of the Time for Completion…"},
+    {"clause":"FIDIC 8.6","text":"If the Contractor fails to comply with Sub-Clause 8.2, the Contractor shall subject to Sub-Clause 2.5 pay delay damages…"},
+    {"clause":"FIDIC 13","text":"Variations may include the addition, omission, substitution, alteration, or changes to quality, form, character, kind, position, dimension or level of the Works…"},
+    {"clause":"FIDIC 15.2","text":"The Employer shall be entitled to terminate the Contract if the Contractor… without reasonable excuse fails to proceed with the Works…"}
+  ]
+}

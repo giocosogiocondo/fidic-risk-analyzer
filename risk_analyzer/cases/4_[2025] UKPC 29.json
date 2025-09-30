@@ -1,0 +1,86 @@
+{
+  "case_id": "[2025] UKPC 29",
+  "seat": "Trinidad & Tobago (appeal to Judicial Committee of the Privy Council, UK)",
+  "institution": "High Court & Court of Appeal of Trinidad & Tobago / Privy Council (UK)",
+  "law_governing_contract": "Law of Trinidad & Tobago; contract incorporated FIDIC 1987 (4th Edition, reprinted 1992)",
+  "lex_arbitri": "N/A (court litigation, not arbitration)",
+  "fidic_edition": "FIDIC 1987 4th Edition (Red Book – Works of Civil Engineering Construction)",
+  "works": "Oropune Gardens Phase II Housing Development (infrastructure works)",
+  "core_issues": [
+    {
+      "tag": "AdditionalClaim",
+      "clause": "FIDIC 70.1",
+      "desc": "Whether contractor entitled to TT$11.7m additional claim for equipment cost escalation under Clause 70.1"
+    },
+    {
+      "tag": "ClaimProcedure",
+      "clause": "FIDIC 53.1–53.4",
+      "desc": "Whether Dipcon complied with notice and record-keeping requirements; fallback to 53.4 (default assessment by Employer)"
+    },
+    {
+      "tag": "BoardApproval",
+      "clause": "Company law / FIDIC 53.4",
+      "desc": "Whether UDeCOTT’s internal board approval was required before liability could crystallise"
+    },
+    {
+      "tag": "FinalSettlement",
+      "clause": "Correspondence Jan–Feb 2010",
+      "desc": "Effect of Dipcon’s acceptance of TT$18.8m ‘full and final settlement’ while reserving extra claim"
+    },
+    {
+      "tag": "CourseOfDealing",
+      "clause": "FIDIC 60.5–60.9 (final account)",
+      "desc": "Whether parties’ deviation from FIDIC certification/payment process created enforceable entitlement based on course of conduct"
+    }
+  ],
+  "factual_triggers": [
+    "2003: Contract signed for TT$25.9m + VAT, incorporating FIDIC 1987",
+    "2006-07: Works completed July 2006",
+    "2009: Negotiations on final account; UDeCOTT letter 4 Aug 2009 records agreement to ~TT$18.6m subject to board approval",
+    "27 Jan 2010: UDeCOTT proposed TT$18.8m as full & final settlement including TT$3.5m for equipment escalation",
+    "8 Feb 2010: Dipcon accepted TT$18.8m but requested consideration of extra TT$11.2m claim",
+    "2010-2012: UDeCOTT officers re-assessed additional claim at TT$11.68m but never took to board",
+    "10 May 2012: Dipcon letter acknowledged board approval still required",
+    "2012: UDeCOTT denied liability; Dipcon sued for additional claim",
+    "2017: High Court (Rahim J) dismissed claim; found no binding agreement without board approval",
+    "2019-2022: Court of Appeal dismissed appeal; held reassessment was outside FIDIC, required board approval",
+    "2025-06-25: Privy Council dismissed final appeal"
+  ],
+  "errors_identified": [
+    "Dipcon failed to comply with FIDIC Clause 53.1–53.3 notice/record procedure",
+    "Reassessment by UDeCOTT officers could not bind company absent board authority",
+    "Dipcon itself acknowledged board approval requirement in 2012 letter",
+    "No evidence of Engineer certification of Additional Claim under FIDIC",
+    "Acceptance of TT$18.8m settlement undercut later assertion of binding entitlement"
+  ],
+  "outcome": "Privy Council dismissed appeal. Held that Additional Claim never crystallised — UDeCOTT board approval was a necessary condition, not obtained. Clause 53.4 did not bypass need for board decision. No enforceable entitlement to TT$11.7m extra payment.",
+  "risk_lessons": [
+    "Strict compliance with FIDIC Clause 53 claim procedures is essential; late or informal claims risk being unenforceable",
+    "Employer’s board approval may be a legal prerequisite in state-owned or statutory entities — contractors must secure formal approvals",
+    "‘Without prejudice’ settlements or conditional acceptance letters do not guarantee entitlement absent compliance with contract machinery",
+    "Reassessment by project officers cannot substitute for formal Engineer certification or board sanction",
+    "Parties’ course of dealing can influence interpretation, but cannot override statutory governance requirements"
+  ],
+  "snippets": [
+    {
+      "clause": "FIDIC 70.1",
+      "text": "There shall be added to or deducted from the Contract Price such sums in respect of rise or fall in the costs of labour and/or materials…"
+    },
+    {
+      "clause": "FIDIC 53.4",
+      "text": "If the Contractor fails to comply with sub-clauses 53.1–53.3, entitlement shall not exceed such amount as Employer or arbitrator considers verified by contemporary records"
+    },
+    {
+      "clause": "Dipcon letter 10 May 2012",
+      "text": "…analysis was submitted for board note … but it is our understanding that the board note has not yet been prepared …"
+    },
+    {
+      "clause": "Court finding",
+      "text": "Employees’ reassessment was not binding act of UDeCOTT absent board approval"
+    },
+    {
+      "clause": "Privy Council conclusion",
+      "text": "Dipcon’s entitlement to payment of the Additional Claim never crystallised … appeal dismissed"
+    }
+  ]
+}

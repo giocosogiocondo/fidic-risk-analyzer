@@ -1,0 +1,48 @@
+{
+  "case_id": "[2013] EWHC 2356 (TCC)",
+  "seat": "England (Technology & Construction Court, High Court of Justice)",
+  "institution": "Court application under Arbitration Act 1996 s.18 (appointment of arbitrator); underlying contract arbitration clause (seat London, LCIA appointment)",
+  "law_governing_contract": "English law (per Particular Conditions clause 5.1(b))",
+  "lex_arbitri": "English Arbitration Act 1996",
+  "fidic_edition": "FIDIC 4th Edition (1987, reprinted 1992 with amendments)",
+  "works": "Refurbishment and fit-out of Al-Waddan Hotel, Tripoli, Libya",
+  "core_issues": [
+    {"tag":"ArbitrationAgreement","clause":"FIDIC 67.1–67.3 (amended)","desc":"Whether arbitration agreement under clause 67 remained valid despite ‘replacement contract’"},
+    {"tag":"EngineerRole","clause":"FIDIC 67.1","desc":"Whether Engineer’s refusal to act (DAR Al Handasah stating appointment expired) blocked dispute resolution step"},
+    {"tag":"SurvivalOfContract","clause":"Side Letter 6 Aug 2007","desc":"Effect of alleged replacement contract vs confirmation side letter affirming 1 Apr 2007 contract as valid"},
+    {"tag":"Section18Application","clause":"Arbitration Act 1996 s.18","desc":"Court power to appoint arbitrator where parties fail to agree"},
+    {"tag":"GoodArguableCase","clause":"Case law (Noble Denton; Vale do Rio)","desc":"Threshold test: only need to show arguable arbitration agreement, not resolve merits"}
+  ],
+  "factual_triggers": [
+    "1 Apr 2007: Contract signed (FIDIC 4th Ed, amended), Engineer = DAR Al Handasah",
+    "2008: Certificate 18 issued; payment dispute arose (c. US$4m, incl. IPC, retention, additional labour)",
+    "10 Jun 2012: Contractor referred dispute to Engineer under cl.67.1",
+    "19 Jun 2012: Engineer replied appointment expired 31 Dec 2010; refused to act",
+    "1 Aug 2012: Contractor requested Employer to pay/reappoint Engineer; alternatively notice of intention to arbitrate (cl.67.2)",
+    "16 Nov 2012: Contractor’s solicitors (CMS) issued arbitration notice, proposed arbitrators; suggested LCIA if no agreement",
+    "2012–2013: Employer’s solicitors raised ‘replacement contract’ with Libyan courts clause; Contractor produced Aug 2007 side letter confirming original 2007 contract",
+    "22 Mar 2013: English court granted leave to serve arbitration claim on Employer (BVI)",
+    "23 May 2013: Hearing in TCC (Employer unrepresented); court considered s.18 application"
+  ],
+  "errors_identified": [
+    "Employer inconsistent: earlier letters (2010) accepted 2007 contract, later raised replacement contract argument",
+    "Engineer’s refusal to act could not be relied upon by Employer to block arbitration process",
+    "Employer did not engage with proceedings, failed to acknowledge service or provide evidence",
+    "Confusion introduced by ‘replacement contract’ but contradicted by side letter and earlier admissions"
+  ],
+  "outcome": "Court held good arguable case that arbitration agreement in 1 Apr 2007 contract remained valid, English seat, English law. Found arguable compliance with cl.67 process (Engineer’s refusal excused). Ordered arbitrator be appointed by LCIA President/Vice-President under s.18 Arbitration Act 1996.",
+  "risk_lessons": [
+    "Side letters confirming contract validity can override inconsistent subsequent agreements",
+    "Engineer’s failure/refusal to act cannot be used by Employer to frustrate arbitration",
+    "Section 18 AA 1996 requires only an arguable case, not determination of underlying merits",
+    "Clear drafting of arbitration clause critical to avoid disputes over jurisdiction/forum",
+    "Employers raising replacement contracts late may weaken credibility in enforcement proceedings"
+  ],
+  "snippets": [
+    {"clause":"FIDIC 67.3 (amended)","text":"Any dispute… shall be finally settled according to the applicable arbitration laws of England. Location of arbitration shall be England."},
+    {"clause":"Engineer Letter 19 Jun 2012","text":"…our services contract… expired on 31/12/2010… we no more have capacity to assume any duties… we will not act on your letter…"},
+    {"clause":"Side Letter 6 Aug 2007","text":"…the governing and valid Contract… is the signed Contract between Al-Waddan and MAN, signed on 1 April 2007."},
+    {"clause":"Court test","text":"…the test on an application under section 18 is only one of whether there is an arguable case that there is a valid arbitration agreement."},
+    {"clause":"Court order","text":"…the arbitrator… shall be a sole arbitrator to be appointed by the President or Vice-President for the time being of the LCIA."}
+  ]
+}
